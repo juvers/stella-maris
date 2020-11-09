@@ -11,13 +11,13 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
     >
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
+          <img alt="" width="150px" src={process.env.PUBLIC_URL + footerLogo} />
         </Link>
       </div>
       <p>
         © 2020{" "}
         <a href="//hasthemes.com" rel="noopener noreferrer" target="_blank">
-          Flone
+          SMGC
         </a>
         .<br /> All Rights Reserved
       </p>
