@@ -13,7 +13,7 @@ const HomeFashionThree = () => {
         <title>Stella Maris | Home</title>
         <meta
           name="description"
-          content="Fashion home of flone react minimalist eCommerce template."
+          content="Stella Maris Girls College, Iruekpen"
         />
       </MetaTags>
       <LayoutOne

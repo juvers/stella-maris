@@ -21,7 +21,8 @@ const LanguageCurrencyChanger = ({
   return (
     <div className="language-currency-wrap">
       <div className="same-language-currency language-style">
-        <span>
+        <span>EDUPORTAL</span>
+        {/* <span>
           {currentLanguageCode === "en"
             ? "English"
             : currentLanguageCode === "fn"
@@ -49,10 +50,11 @@ const LanguageCurrencyChanger = ({
               </button>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="same-language-currency use-style">
-        <span>
+        <span>ALUMNAE</span>
+        {/* <span>
           {currency.currencyName} <i className="fa fa-angle-down" />
         </span>
         <div className="lang-car-dropdown">
@@ -73,10 +75,11 @@ const LanguageCurrencyChanger = ({
               </button>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
+
       <div className="same-language-currency">
-        <p>Call Us 3965410</p>
+        <p>Call Us +234(800)-111-2222</p>
       </div>
     </div>
   );
