@@ -21,7 +21,7 @@ const LanguageCurrencyChanger = ({
   return (
     <div className="language-currency-wrap">
       <div className="same-language-currency language-style">
-        <span>EDUPORTAL</span>
+        <span>+234(800)-111-2222</span>
         {/* <span>
           {currentLanguageCode === "en"
             ? "English"
@@ -53,7 +53,7 @@ const LanguageCurrencyChanger = ({
         </div> */}
       </div>
       <div className="same-language-currency use-style">
-        <span>ALUMNAE</span>
+        <span>principal@stellamrisgirlscollege.org</span>
         {/* <span>
           {currency.currencyName} <i className="fa fa-angle-down" />
         </span>
@@ -78,9 +78,10 @@ const LanguageCurrencyChanger = ({
         </div> */}
       </div>
 
-      <div className="same-language-currency">
+      {/* <div className="same-language-currency">
         <p>Call Us +234(800)-111-2222</p>
-      </div>
+      </div> */}
+     
     </div>
   );
 };

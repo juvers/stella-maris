@@ -1,17 +1,47 @@
 [
   {
     "id": 1,
-    "title": "Stylish",
-    "subtitle": "Male Clothes",
-    "text": "30% off Summer Vacation",
+    "title": "Respect",
+    "subtitle": "Respect",
+    "text": "Sint Unum (Oneness with God, self and the whole of creation).",
     "image": "/assets/img/slider/slider-2.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "title": "Stylish",
-    "subtitle": "Female Clothes",
-    "text": "30% off Summer Vacation",
+    "title": "Accountability",
+    "subtitle": "Accountability",
+    "text": "Sint Unum (Oneness with God, self and the whole of creation).",
+    "image": "/assets/img/slider/slider-2-2.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "Creativity",
+    "subtitle": "Creativity",
+    "text": "Sint Unum (Oneness with God, self and the whole of creation).",
+    "image": "/assets/img/slider/slider-2-2.jpg",
+    "url": "/shop-grid-standard"
+  }
+  ,  {
+    "id": 4,
+    "title": "Resilience",
+    "subtitle": "Resilience",
+    "text": "Sint Unum (Oneness with God, self and the whole of creation).",
+    "image": "/assets/img/slider/slider-2-2.jpg",
+    "url": "/shop-grid-standard"
+  },  {
+    "id": 4,
+    "title": "Integrity",
+    "subtitle": "Integrity",
+    "text": "Sint Unum (Oneness with God, self and the whole of creation).",
+    "image": "/assets/img/slider/slider-2-2.jpg",
+    "url": "/shop-grid-standard"
+  },  {
+    "id": 4,
+    "title": "Perseverance",
+    "subtitle": "Perseverance",
+    "text": "Sint Unum (Oneness with God, self and the whole of creation).",
     "image": "/assets/img/slider/slider-2-2.jpg",
     "url": "/shop-grid-standard"
   }

@@ -22,7 +22,7 @@ const HeroSliderTenSingle = ({ data, sliderClass }) => {
                   className="animated"
                   to={process.env.PUBLIC_URL + data.url}
                 >
-                  SHOP NOW
+                  Apply for Admission
                 </Link>
               </div>
             </div>

@@ -121,7 +121,6 @@ const App = (props) => {
       })
     );
   });
-console.log("Inside process.env: ",process.env);
   return (
     <ToastProvider placement="bottom-left">
       <BreadcrumbsProvider>
