@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 import { multilanguage } from "redux-multilanguage";
 
 const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
-  return (
-    <div
-      className={` ${
+        return ( <
+                div className = { ` ${
         sidebarMenu
           ? "sidebar-menu"
           : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
@@ -45,7 +44,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "/home-fashion-three"}>
-                      {strings["home_fashion_three"]}
+                      {strings["home_smgc"]}
                     </Link>
                   </li>
                   <li>
@@ -256,7 +255,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
           <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
               {" "}
-              {strings["shop"]}
+              {strings["about"]}
               {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
@@ -396,13 +395,14 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
             </ul>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-              {strings["collection"]}
+            <Link to={process.env.PUBLIC_URL + "/admission"}>
+              {strings["admission"]}
             </Link>
           </li>
+          
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
-              {strings["pages"]}
+              {strings["academics"]}
               {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
@@ -461,7 +461,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-              {strings["blog"]}
+              {strings["news"]}
               {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>

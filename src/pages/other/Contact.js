@@ -12,10 +12,10 @@ const Contact = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Contact</title>
+        <title>SMGC | Contact</title>
         <meta
           name="description"
-          content="Contact of flone react minimalist eCommerce template."
+          content="Contact of SMGC."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
@@ -30,7 +30,7 @@ const Contact = ({ location }) => {
             <div className="contact-map mb-10">
               <LocationMap latitude="47.444" longitude="-122.176" />
             </div>
-            <div className="custom-row-2">
+            <div className="custom-row-2 d-flex flex-row">
               <div className="col-lg-4 col-md-5">
                 <div className="contact-info-wrap">
                   <div className="single-contact-info">
@@ -38,8 +38,8 @@ const Contact = ({ location }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>+234 800 678 1102</p>
+                      <p>+234 800 678 1102</p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -47,11 +47,11 @@ const Contact = ({ location }) => {
                       <i className="fa fa-globe" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>
-                        <a href="mailto:urname@email.com">urname@email.com</a>
+                      <p >
+                        <a href="mailto:admin@stellamarisgirlscollege.org">admin@stellamarisgirlscollege.org</a>
                       </p>
                       <p>
-                        <a href="//urwebsitenaem.com">urwebsitenaem.com</a>
+                        <a href="//stellamarisgirlscollege.org">stellamarisgirlscollege.org</a>
                       </p>
                     </div>
                   </div>
@@ -61,7 +61,7 @@ const Contact = ({ location }) => {
                     </div>
                     <div className="contact-info-dec">
                       <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>street, Iruekpen, Edo State</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">

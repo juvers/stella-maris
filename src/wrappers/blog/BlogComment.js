@@ -4,7 +4,7 @@ const BlogComment = () => {
   return (
     <Fragment>
       <div className="blog-comment-wrapper mt-55">
-        <h4 className="blog-dec-title">comments : 02</h4>
+        <h4 className="blog-dec-title">Frequently Asked Questions</h4>
         <div className="single-comment-wrapper mt-35">
           <div className="blog-comment-img">
             <img
@@ -30,7 +30,7 @@ const BlogComment = () => {
             />
           </div>
           <div className="blog-comment-content">
-            <h4>DX Joxova</h4>
+            <h4>Admin Office</h4>
             <span>October 14, 2018 </span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

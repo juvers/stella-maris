@@ -7,6 +7,9 @@ import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 
+// Admission page
+const Admission = lazy(() => import("./pages/admission/Admission"));
+
 // home pages
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
 const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
@@ -301,6 +304,11 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-standard"}
                   component={ShopGridStandard}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/admission"}
+                  component={Admission}
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-filter"}

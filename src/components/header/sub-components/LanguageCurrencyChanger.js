@@ -53,7 +53,7 @@ const LanguageCurrencyChanger = ({
         </div> */}
       </div>
       <div className="same-language-currency use-style">
-        <span>principal@stellamrisgirlscollege.org</span>
+        <span>principal@stellamarisgirlscollege.org</span>
         {/* <span>
           {currency.currencyName} <i className="fa fa-angle-down" />
         </span>

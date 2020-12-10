@@ -12,40 +12,10 @@ const BlogPost = () => {
           />
         </div>
         <div className="blog-details-content">
-          <div className="blog-meta-2">
-            <ul>
-              <li>22 April, 2018</li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                  4 <i className="fa fa-comments-o" />
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <h3>14 Emerging Fashion Influencers Who Are Going to Own 2018</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprhendit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qei
-            officia deser mollit anim id est laborum. Sed ut perspiciatis unde
-            omnis iste natus error sit voluptatem accusantium doloremque
-            laudantium, totam rem aperiam.{" "}
-          </p>
-          <blockquote>
-            Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do
-            eiusmod tempor incididunt labo dolor magna aliqua. Ut enim ad minim
-            veniam quis nostrud.
-          </blockquote>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehendrit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+
+          <h3>Admissions Process</h3>
+          <p className="text-justify">
+            The process of admitting candidates into Louisville Girls High School is divided into two phases. The first phase is a written examination in Mathematics, English Language and Aptitude test. The second phase is a face-to-face interview of the prospective students and their parents with the principal. This admission process starts with the purchase of forms from September of the previous year through to the examination day which is usually the first Saturday in March.
           </p>
         </div>
       </div>
@@ -72,66 +42,31 @@ const BlogPost = () => {
             </div>
           </div>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendrit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+        <h3>Eligibility and Process</h3>
+        <p className="text-justify">
+          In SMGC, a new intake into JS1 must have turned ten (10) by August of the year of entry into the school. A student in the boarding house must be mature enough to take good care of herself, carry out the normal daily routine, and still be able to face her studies squarely. Also, this age limitation is to ensure that the girls are at least 16 years old when leaving the school. We hope parents would understand this stance of the school and co-operate with us to produce mature ladies for the next phase of their lives.{" "}
         </p>
+
+        <h3>Ways to Obtain Form</h3>
+        <p className="text-justify">
+          You can visit any of the following centres to check the list of successful candidates:{" "}
+
+        </p>
+        <ul class="list-group">
+          <li class="list-group-item">Louisville Girls High School, Ijebu-Itele, Ogun State</li>
+          <li class="list-group-item">St. Finbarr’s College, Akoka, Lagos State</li>
+          <li class="list-group-item">St. Louis Nursery/Primary School, Akure, Ondo State</li>
+          <li class="list-group-item">Louisville Nursery/Primary School, Oremeji, Mokola, Ibadan, Oyo State</li>
+          <li class="list-group-item">Nazareth Nursery/Primary School, Festac, Lagos State</li>
+          <li class="list-group-item">Marywood Girls College, Ebute-Meta, Lagos State</li>
+          <li class="list-group-item">Maryland Convent School, Ikeja, Lagos State</li>
+          <li class="list-group-item">Sacred Heart Minor Seminary, CIWA Portharcourt</li>
+
+        </ul>
       </div>
-      <div className="tag-share">
-        <div className="dec-tag">
-          <ul>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                lifestyle ,
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                interior ,
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                outdoor
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="blog-share">
-          <span>share :</span>
-          <div className="share-social">
-            <ul>
-              <li>
-                <a className="facebook" href="//facebook.com">
-                  <i className="fa fa-facebook" />
-                </a>
-              </li>
-              <li>
-                <a className="twitter" href="//twitter.com">
-                  <i className="fa fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a className="instagram" href="//instagram.com">
-                  <i className="fa fa-instagram" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="next-previous-post">
-        <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-          {" "}
-          <i className="fa fa-angle-left" /> prev post
-        </Link>
-        <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-          next post <i className="fa fa-angle-right" />
-        </Link>
-      </div>
+
+
     </Fragment>
   );
 };
