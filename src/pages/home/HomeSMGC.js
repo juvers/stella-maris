@@ -6,7 +6,7 @@ import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
 import HeroSliderTen from "../../wrappers/hero-slider/HeroSliderTen";
 import NewProductGrid from "../../wrappers/product/NewProductGrid";
 
-const HomeFashionThree = () => {
+const HomeSMGC = () => {
   return (
     <Fragment>
       <MetaTags>
@@ -34,4 +34,4 @@ const HomeFashionThree = () => {
   );
 };
 
-export default HomeFashionThree;
+export default HomeSMGC;

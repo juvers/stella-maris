@@ -13,7 +13,7 @@ const Admission = lazy(() => import("./pages/admission/Admission"));
 // home pages
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
 const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
-const HomeFashionThree = lazy(() => import("./pages/home/HomeFashionThree"));
+const HomeSMGC = lazy(() => import("./pages/home/HomeSMGC"));
 const HomeFashionFour = lazy(() => import("./pages/home/HomeFashionFour"));
 const HomeFashionFive = lazy(() => import("./pages/home/HomeFashionFive"));
 const HomeFashionSix = lazy(() => import("./pages/home/HomeFashionSix"));
@@ -143,7 +143,7 @@ const App = (props) => {
                 <Route
                   exact
                   path={process.env.PUBLIC_URL + "/"}
-                  component={HomeFashion}
+                  component={HomeSMGC}
                 />
 
                 {/* Homepages */}
@@ -157,7 +157,7 @@ const App = (props) => {
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/home-fashion-three"}
-                  component={HomeFashionThree}
+                  component={HomeFashion}
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/home-fashion-four"}
