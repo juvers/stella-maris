@@ -26,7 +26,7 @@ const HeaderTop = ({
       />
       <div className="header-offer">
         <p>
-        Reaching for the stars with faith
+        Reaching for the stars with faith...
         </p>
       </div>
     </div>
