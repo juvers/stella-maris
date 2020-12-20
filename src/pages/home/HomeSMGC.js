@@ -1,23 +1,23 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import LayoutOne from "../../layouts/LayoutOne";
-import FeatureIconTwo from "../../wrappers/feature-icon/FeatureIconTwo";
-import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
-import HeroSliderTen from "../../wrappers/hero-slider/HeroSliderTen";
-import NewProductGrid from "../../wrappers/product/NewProductGrid";
+import LayoutOne from "layouts/LayoutOne";
+import FeatureIconTwo from "wrappers/feature-icon/FeatureIconTwo";
+import BlogFeatured from "wrappers/blog-featured/BlogFeatured";
+import HeroSliderTen from "wrappers/hero-slider/HeroSliderTen";
+import NewProductGrid from "wrappers/product/NewProductGrid";
 
 const HomeSMGC = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Stella Maris | Home</title>
+        <title>SMGC | Home</title>
         <meta
           name="description"
           content="Stella Maris Girls College, Iruekpen"
         />
       </MetaTags>
       <LayoutOne
-        headerContainerClass="container-fluid"
+        headerContainerClass="container"
         headerPaddingClass="header-padding-2"
         headerTop="visible"
       >

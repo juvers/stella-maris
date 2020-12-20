@@ -7,13 +7,42 @@ import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 
+// Home Page
+const HomeSMGC = lazy(() => import("./pages/home/HomeSMGC"));
+
+
+// About Page
+const About_us = lazy(() => import("pages/about/about"));
+const Administration = lazy(() => import("pages/about/administration"));
+const Anthem = lazy(() => import("pages/about/anthem"));
+const History = lazy(() => import("pages/about/history"));
+const Staff = lazy(() => import("pages/about/staff"));
+
 // Admission page
-const Admission = lazy(() => import("./pages/admission/Admission"));
+const Admission = lazy(() => import("pages/admission/Admission"));
+
+// Academics Page
+const Academics = lazy(() => import("pages/academics/curriculum"));
+const Classes = lazy(() => import("pages/academics/classes"));
+const Term_Planner = lazy(() => import("pages/academics/term_planner"))
+
+// Liturgy
+const Liturgy = lazy(() => import("pages/liturgy/liturgy"));
+
+// School Life
+const School_Life = lazy(() => import("pages/school_life/boarding_house"));
+const Co_Curricular = lazy(() => import("pages/school_life/co_curricular"));
+const Dress_Code = lazy(() => import("pages/school_life/dress_code"));
+
+// Contact Page
+const Contact_Us = lazy(() => import("pages/contact/contact"));
+
+
 
 // home pages
-const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
-const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
-const HomeSMGC = lazy(() => import("./pages/home/HomeSMGC"));
+const HomeFashion = lazy(() => import("pages/home/HomeFashion"));
+const HomeFashionTwo = lazy(() => import("pages/home/HomeFashionTwo"));
+
 const HomeFashionFour = lazy(() => import("./pages/home/HomeFashionFour"));
 const HomeFashionFive = lazy(() => import("./pages/home/HomeFashionFive"));
 const HomeFashionSix = lazy(() => import("./pages/home/HomeFashionSix"));
@@ -145,7 +174,79 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/"}
                   component={HomeSMGC}
                 />
+                <Route
+                  path={process.env.PUBLIC_URL + "/about_us"}
+                  component={About_us}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/administration"}
+                  component={Administration}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/anthem"}
+                  component={Anthem}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/history"}
+                  component={History}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/staff"}
+                  component={Staff}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/contact_us"}
+                  component={Contact_Us}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/admission"}
+                  component={Admission}
+                />
 
+                <Route
+                  path={process.env.PUBLIC_URL + "/academics"}
+                  component={Academics}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/curriculum"}
+                  component={Academics}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/classes"}
+                  component={Classes}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/term_planner"}
+                  component={Term_Planner}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/liturgy"}
+                  component={Liturgy}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/school_life"}
+                  component={School_Life}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/boarding_house"}
+                  component={School_Life}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/co_curricular"}
+                  component={Co_Curricular}
+                />
+
+                <Route
+                  path={process.env.PUBLIC_URL + "/dress_code"}
+                  component={Dress_Code}
+                />
+
+
+
+
+                
                 {/* Homepages */}
                 <Route
                   path={process.env.PUBLIC_URL + "/home-fashion"}
@@ -306,10 +407,7 @@ const App = (props) => {
                   component={ShopGridStandard}
                 />
 
-                <Route
-                  path={process.env.PUBLIC_URL + "/admission"}
-                  component={Admission}
-                />
+
                 <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-filter"}
                   component={ShopGridFilter}

@@ -73,7 +73,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Store location
+                      School location
                     </Link>
                   </li>
                   <li>
@@ -83,7 +83,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Orders tracking
+                      Administration
                     </Link>
                   </li>
                 </ul>
@@ -108,15 +108,15 @@ const FooterOne = ({
               <div className="footer-list">
                 <ul>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>Returns</Link>
+                    <Link to={process.env.PUBLIC_URL + "#/"}>Admissions</Link>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Support Policy
+                      Curriculum
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>Size guide</Link>
+                    <Link to={process.env.PUBLIC_URL + "#/"}>Term Planner</Link>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>FAQs</Link>

@@ -66,7 +66,7 @@ const IconGroup = ({
           </ul>
         </div>
       </div>
-      <div className="same-style header-compare">
+      {/* <div className="same-style header-compare">
         <Link to={process.env.PUBLIC_URL + "/compare"}>
           <i className="pe-7s-shuffle" />
           <span className="count-style">
@@ -89,7 +89,6 @@ const IconGroup = ({
             {cartData && cartData.length ? cartData.length : 0}
           </span>
         </button>
-        {/* menu cart */}
         <MenuCart
           cartData={cartData}
           currency={currency}
@@ -103,7 +102,7 @@ const IconGroup = ({
             {cartData && cartData.length ? cartData.length : 0}
           </span>
         </Link>
-      </div>
+      </div> */}
       <div className="same-style mobile-off-canvas d-block d-lg-none">
         <button
           className="mobile-aside-button"

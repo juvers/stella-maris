@@ -53,15 +53,15 @@ const BlogPost = () => {
           You can visit any of the following centres to check the list of successful candidates:{" "}
 
         </p>
-        <ul class="list-group">
-          <li class="list-group-item">Louisville Girls High School, Ijebu-Itele, Ogun State</li>
-          <li class="list-group-item">St. Finbarr’s College, Akoka, Lagos State</li>
-          <li class="list-group-item">St. Louis Nursery/Primary School, Akure, Ondo State</li>
-          <li class="list-group-item">Louisville Nursery/Primary School, Oremeji, Mokola, Ibadan, Oyo State</li>
-          <li class="list-group-item">Nazareth Nursery/Primary School, Festac, Lagos State</li>
-          <li class="list-group-item">Marywood Girls College, Ebute-Meta, Lagos State</li>
-          <li class="list-group-item">Maryland Convent School, Ikeja, Lagos State</li>
-          <li class="list-group-item">Sacred Heart Minor Seminary, CIWA Portharcourt</li>
+        <ul className="list-group">
+          <li className="list-group-item">Louisville Girls High School, Ijebu-Itele, Ogun State</li>
+          <li className="list-group-item">St. Finbarr’s College, Akoka, Lagos State</li>
+          <li className="list-group-item">St. Louis Nursery/Primary School, Akure, Ondo State</li>
+          <li className="list-group-item">Louisville Nursery/Primary School, Oremeji, Mokola, Ibadan, Oyo State</li>
+          <li className="list-group-item">Nazareth Nursery/Primary School, Festac, Lagos State</li>
+          <li className="list-group-item">Marywood Girls College, Ebute-Meta, Lagos State</li>
+          <li className="list-group-item">Maryland Convent School, Ikeja, Lagos State</li>
+          <li className="list-group-item">Sacred Heart Minor Seminary, CIWA Portharcourt</li>
 
         </ul>
       </div>

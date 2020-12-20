@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
-import Logo from "../../components/header/Logo";
-import NavMenu from "../../components/header/NavMenu";
-import IconGroup from "../../components/header/IconGroup";
-import MobileMenu from "../../components/header/MobileMenu";
-import HeaderTop from "../../components/header/HeaderTop";
+import Logo from "components/header/Logo";
+import NavMenu from "components/header/NavMenu";
+import IconGroup from "components/header/IconGroup";
+import MobileMenu from "components/header/MobileMenu";
+import HeaderTop from "components/header/HeaderTop";
 
 const HeaderOne = ({
   layout,
@@ -58,15 +58,15 @@ const HeaderOne = ({
       >
         <div className={layout === "container-fluid" ? layout : "container"}>
           <div className="row">
-            <div className="col-xl-2 col-lg-2 col-md-6 col-4">
+            <div className="col-xl-1 col-lg-1 col-md-6 col-4">
               {/* header logo */}
               <Logo imageUrl="/assets/img/logo/stellamarislogo.png" logoClass="logo" />
             </div>
-            <div className="col-xl-8 col-lg-8 d-none d-lg-block">
+            <div className="col-xl-10 col-lg-10 d-none d-lg-block">
               {/* Nav menu */}
               <NavMenu />
             </div>
-            <div className="col-xl-2 col-lg-2 col-md-6 col-8">
+            <div className="col-xl-1 col-lg-1 col-md-6 col-8">
               {/* Icon group */}
               <IconGroup />
             </div>
