@@ -21,7 +21,7 @@ const LanguageCurrencyChanger = ({
   return (
     <div className="language-currency-wrap">
       <div className="same-language-currency language-style">
-        <span>+234(800)-111-2222</span>
+        <span><a href="tel:2348096178050">+234(809) 617 8050 </a></span>
         {/* <span>
           {currentLanguageCode === "en"
             ? "English"

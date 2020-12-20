@@ -38,8 +38,7 @@ const Contact_Us = ({ location }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+234 800 678 1102</p>
-                      <p>+234 800 678 1102</p>
+                      <p><a href="tel:2348096178050">+234(809) 617 8050 </a></p>
                     </div>
                   </div>
                   <div className="single-contact-info">
