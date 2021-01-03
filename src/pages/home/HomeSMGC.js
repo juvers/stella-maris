@@ -5,6 +5,8 @@ import FeatureIconTwo from "wrappers/feature-icon/FeatureIconTwo";
 import BlogFeatured from "wrappers/blog-featured/BlogFeatured";
 import HeroSliderTen from "wrappers/hero-slider/HeroSliderTen";
 import NewProductGrid from "wrappers/product/NewProductGrid";
+import TeamMemberOne from "wrappers/team-member/TeamMemberOne";
+import BrandLogoSliderOne from "wrappers/brand-logo/BrandLogoSliderOne";
 
 const HomeSMGC = () => {
   return (
@@ -26,6 +28,10 @@ const HomeSMGC = () => {
         {/* feature icon */}
         <FeatureIconTwo spaceTopClass="pt-100" spaceBottomClass="pb-60" />
         {/* product grid */}
+        <TeamMemberOne spaceTopClass="pt-95" spaceBottomClass="pb-70" />
+
+        {/* brand logo slider */}
+        <BrandLogoSliderOne spaceBottomClass="pb-70" />
         <NewProductGrid category="accessories" limit={10} />
         {/* blog featured */}
         <BlogFeatured spaceBottomClass="pb-55" />
