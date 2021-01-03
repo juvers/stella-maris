@@ -5,10 +5,10 @@ const ColumnLayout = ({data}) => {
     return(
         <>
             <div className="row mb-5">
-                <div className="col-md-2 pt-5 mt-2">
+                <div className="col-md-2 pt-5 mt-2 hide-img">
                     <img src={process.env.PUBLIC_URL + '/assets/img/team/sis.jpg'} width="180px" alt=""/>
                 </div>
-                <div className="col-md-10">
+                <div className="col-sm-12 col-md-10">
                     <h2 className="text-uppercase text-center pb-2">{data.title}</h2>
                     <p className="text-justify">{data.content}</p>
                     <p className="text-justify">{data?.content2}</p>

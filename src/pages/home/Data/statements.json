@@ -1,0 +1,19 @@
+[{
+        "id": 1,
+        "image": "/assets/img/icon-img/support-1.png",
+        "title": "MISSION STATEMENT",
+        "subtitle": "Lorem ipsum dolor sit amet consectetu adipisicing elit sedzzzz"
+    },
+    {
+        "id": 2,
+        "image": "/assets/img/icon-img/support-2.png",
+        "title": "VISION STATEMENT",
+        "subtitle": "Nurturing future stellar women of faith and integrity who will be positive contributors and active informed citizens of their society"
+    },
+    {
+        "id": 3,
+        "image": "/assets/img/icon-img/support-3.png",
+        "title": "BELIEF STATEMENT",
+        "subtitle": "We believe that the stars lie hidden in all our students, and when engaged in higher order thinking and problem-solving skills within an environment that is safe and nurturing, they will discover their potentials and imbibe a deep respect for God, humanity and intellectual values."
+    }
+]
