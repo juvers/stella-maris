@@ -1002,12 +1002,6 @@
     }
 }
 
-.hide-img {
-    @media #{$xxs-layout} {
-        display: none;
-    }
-}
-
 .single-banner-3 {
     position: relative;
     img {

@@ -3,7 +3,7 @@ import React from "react";
 import featureIconData from "data/feature-icons/feature-icon-two.json";
 import FeatureIconTwoSingle from "components/feature-icon/FeatureIconTwoSingle.js";
 import welcomeText from "data/pages/home/welcome.json";
-import ColumnLayout from "components/containers/ColumnLayout";
+import ColumnLayout from "../Content/ColumnLayout";
 import statements from "../Data/statements.json";
 
 const Statements = ({ spaceTopClass, spaceBottomClass }) => {

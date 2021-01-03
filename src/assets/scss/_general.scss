@@ -1,0 +1,8 @@
+// * {
+//     border: 1px solid #f00;
+// }
+.hide-img {
+    @media #{$xxs-layout} {
+        display: none;
+    }
+}
