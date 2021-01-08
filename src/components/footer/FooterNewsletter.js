@@ -21,7 +21,7 @@ const FooterNewsletter = ({
       <div className={`subscribe-style ${colorClass ? colorClass : ""}`}>
         <p>Get E-mail updates about our latest news and stories.</p>
         {/* subscribe email */}
-        <SubscribeEmail mailchimpUrl="//devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" />
+        <SubscribeEmail mailchimpUrl="https://us7.list-manage.com/contact-form?u=f2d3d12764b1421ddeafa57b1&form_id=de803a9645ab4e34d755ba4a1c32cb57" />
       </div>
     </div>
   );

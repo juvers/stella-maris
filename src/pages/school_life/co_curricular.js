@@ -27,22 +27,10 @@ const Co_Curricular = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        <div className="blog-area pt-100 pb-100">
-          <div className="container">
-            <div className="row flex-row-reverse">
-              <div className="col-lg-9">
-                <div className="blog-details-wrapper ml-20">
-                  {/* blog post */}
-                  <BlogPost />
-
-                  {/* blog post comment */}
-                  <BlogComment />
-                </div>
-              </div>
-              <div className="col-lg-3">
-                {/* blog sidebar */}
-                <BlogSidebar />
-              </div>
+        <div className="container" style={{ minHeight: "30vh" }}>
+          <div className="row">
+            <div className="col-md-12 text-center pt-5">
+              <h1>Coming Soon...</h1>
             </div>
           </div>
         </div>

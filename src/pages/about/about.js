@@ -27,10 +27,10 @@ const About = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        <div className="blog-area pt-100 pb-100">
+        <div className="blog-area pb-100">
           <div className="container">
             <div className="row">
-              <div className="col-lg-8">
+              <div className="col-md-12">
                 <div className="blog-details-wrapper ml-20">
                   {/* blog post */}
                   <BlogPost />
@@ -38,13 +38,6 @@ const About = ({ location }) => {
                   {/* blog post comment */}
                   {/* <BlogComment /> */}
                 </div>
-              </div>
-              <div className="col-lg-4">
-                {/* blog sidebar */}
-                {/* <BlogSidebar /> */}
-                <h3>FOCAL POINTS</h3>
-                
-
               </div>
             </div>
           </div>

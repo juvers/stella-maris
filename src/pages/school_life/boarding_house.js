@@ -2,11 +2,11 @@ import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
-import LayoutOne from "../../layouts/LayoutOne";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogComment from "../../wrappers/blog/BlogComment";
-import BlogPost from "../../wrappers/blog/BlogPost";
+import LayoutOne from "layouts/LayoutOne";
+import Breadcrumb from "wrappers/breadcrumb/Breadcrumb";
+import BlogSidebar from "./Content/BlogSidebar";
+// import BlogComment from "../../wrappers/blog/BlogComment";
+import BlogPost from "./Content/BlogPost";
 
 const Boarding_House = ({ location }) => {
   const { pathname } = location;
@@ -36,7 +36,7 @@ const Boarding_House = ({ location }) => {
                   <BlogPost />
 
                   {/* blog post comment */}
-                  <BlogComment />
+                  {/* <BlogComment /> */}
                 </div>
               </div>
               <div className="col-lg-3">

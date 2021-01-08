@@ -69,20 +69,20 @@ const FooterOne = ({
               <div className="footer-list">
                 <ul>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/about"}>About us</Link>
+                    <Link to={process.env.PUBLIC_URL + "/about_us"}>About us</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
+                    <Link to={process.env.PUBLIC_URL + "/contact_us"}>
                       School location
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/contact"}>
+                    <Link to={process.env.PUBLIC_URL + "/contact_us"}>
                       Contact
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
+                    <Link to={process.env.PUBLIC_URL + "/administration"}>
                       Administration
                     </Link>
                   </li>
@@ -111,12 +111,12 @@ const FooterOne = ({
                     <Link to={process.env.PUBLIC_URL + "#/"}>Admissions</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
+                    <Link to={process.env.PUBLIC_URL + "/curriculum"}>
                       Curriculum
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>Term Planner</Link>
+                    <Link to={process.env.PUBLIC_URL + "/term_planner"}>Term Planner</Link>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>FAQs</Link>
