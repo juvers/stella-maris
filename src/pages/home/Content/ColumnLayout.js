@@ -18,6 +18,7 @@ const ColumnLayout = ({data}) => {
                     <p className="text-justify f-md">{data?.content2}</p>
                     <p className="text-justify f-md">{data?.content3}</p>
                     <p className="f-md">{data?.signature}</p>
+                    <p className="f-md">{data?.office}</p>
 
                 </div>
             </div>

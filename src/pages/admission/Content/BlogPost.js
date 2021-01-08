@@ -45,7 +45,7 @@ const BlogPost = () => {
 
         <h3>Eligibility</h3>
         <p className="text-justify">
-          In SMGC, a new intake into JS1 must have turned ten (10) by August of the year of entry into the school. A student in the boarding house must be mature enough to take good care of herself, carry out the normal daily routine, and still be able to face her studies squarely. Also, this age limitation is to ensure that the girls are at least 16 years old when leaving the school. We hope parents would understand this stance of the school and co-operate with us to produce mature ladies for the next phase of their lives.{" "}
+          In SMGC, a new intake into JS1 must have turned ten (10) by September of the year of entry into the school. A student in the boarding house must be mature enough to take good care of herself, carry out the normal daily routine, and still be able to face her studies squarely. Also, this age limitation is to ensure that the girls are at least 16 years old when leaving the school. We hope parents would understand this stance of the school and co-operate with us to produce mature ladies for the next phase of their lives.{" "}
         </p>
 
         <h3>Examination Centers</h3>
