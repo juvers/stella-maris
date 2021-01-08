@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import React from "react";
-import FeatureIconTwoSingle from "components/feature-icon/FeatureIconTwoSingle.js";
+// import FeatureIconTwoSingle from "components/feature-icon/FeatureIconTwoSingle.js";
 import welcomeText from "data/pages/home/welcome.json";
 import ColumnLayout from "../Content/ColumnLayout";
-import statements from "../Data/statements.json";
+// import statements from "../Data/statements.json";
 
 const Statements = ({ spaceTopClass, spaceBottomClass }) => {
   return (

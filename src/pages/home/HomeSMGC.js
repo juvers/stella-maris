@@ -40,7 +40,7 @@ const HomeSMGC = () => {
         {/* <NewProductGrid category="accessories" limit={10} /> */}
         {/* blog featured */}
         {/* <BlogFeatured spaceBottomClass="pb-55" /> */}
-        <Poster spaceTopClass="pt-100" spaceBottomClass="pb-60" />
+        <Poster spaceBottomClass="pb-60" />
 
         <News spaceBottomClass="pb-55" />
 

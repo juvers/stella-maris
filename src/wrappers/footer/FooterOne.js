@@ -53,7 +53,7 @@ const FooterOne = ({
           >
             {/* footer copyright */}
             <FooterCopyright
-              footerLogo="/assets/img/logo/stellamarislogo.png"
+              footerLogo="/assets/img/smgcfinallogo.png"
               spaceBottomClass="mb-30"
             />
           </div>

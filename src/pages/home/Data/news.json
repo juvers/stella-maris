@@ -1,6 +1,6 @@
 [{
         "id": 1,
-        "image": "/assets/img/blog/blog-1.jpg",
+        "image": "/assets/img/school-building-v3.jpg",
         "category": ["SMGC"],
         "title": "A new begining for the generation",
         "url": "/blog-details-standard",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "/assets/img/blog/blog-2.jpg",
+        "image": "/assets/img/poster2021.jpg",
         "category": ["Admission"],
         "title": "Get information about Admission",
         "url": "/admission",
@@ -18,7 +18,7 @@
     },
     {
         "id": 3,
-        "image": "/assets/img/blog/blog-3.jpg",
+        "image": "/assets/img/uromidiocese.jpg",
         "category": ["Diocese"],
         "title": "The Diocese of Uromi and Education",
         "url": "/blog-details-standard",

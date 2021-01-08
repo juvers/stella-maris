@@ -3,7 +3,7 @@
         "title": "Respect",
         "subtitle": "Respect",
         "text": "Sint Unum (Oneness with God, self and the whole of creation).",
-        "image": "/assets/img/slider/slider-2.jpg",
+        "image": "/assets/img/stellamarisimage.jpg",
         "url": "/admission"
     },
     {
@@ -11,7 +11,7 @@
         "title": "Accountability",
         "subtitle": "Accountability",
         "text": "Sint Unum (Oneness with God, self and the whole of creation).",
-        "image": "/assets/img/slider/slider-2-2.jpg",
+        "image": "/assets/img/school-building-v3.jpg",
         "url": "/admission"
     },
     {
@@ -19,28 +19,28 @@
         "title": "Creativity",
         "subtitle": "Creativity",
         "text": "Sint Unum (Oneness with God, self and the whole of creation).",
-        "image": "/assets/img/slider/slider-2-2.jpg",
+        "image": "/assets/img/stellamarisimage.jpg",
         "url": "/admission"
     }, {
         "id": 4,
         "title": "Resilience",
         "subtitle": "Resilience",
         "text": "Sint Unum (Oneness with God, self and the whole of creation).",
-        "image": "/assets/img/slider/slider-2-2.jpg",
+        "image": "/assets/img/school-building-v3.jpg",
         "url": "/admission"
     }, {
         "id": 5,
         "title": "Integrity",
         "subtitle": "Integrity",
         "text": "Sint Unum (Oneness with God, self and the whole of creation).",
-        "image": "/assets/img/slider/slider-2-2.jpg",
+        "image": "/assets/img/stellamarisimage.jpg",
         "url": "/admission"
     }, {
         "id": 6,
         "title": "Perseverance",
         "subtitle": "Perseverance",
         "text": "Sint Unum (Oneness with God, self and the whole of creation).",
-        "image": "/assets/img/slider/slider-2-2.jpg",
+        "image": "/assets/img/school-building-v3.jpg",
         "url": "/admission"
     }
 ]

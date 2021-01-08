@@ -4,9 +4,9 @@ import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "layouts/LayoutOne";
 import Breadcrumb from "wrappers/breadcrumb/Breadcrumb";
-import BlogSidebar from "wrappers/blog/BlogSidebar";
-import BlogComment from "wrappers/blog/BlogComment";
-import BlogPost from "wrappers/blog/BlogPost";
+// import BlogSidebar from "wrappers/blog/BlogSidebar";
+// import BlogComment from "wrappers/blog/BlogComment";
+import BlogPost from "./Content/BlogPost";
 
 const About = ({ location }) => {
   const { pathname } = location;
@@ -29,19 +29,22 @@ const About = ({ location }) => {
         <Breadcrumb />
         <div className="blog-area pt-100 pb-100">
           <div className="container">
-            <div className="row flex-row-reverse">
-              <div className="col-lg-9">
+            <div className="row">
+              <div className="col-lg-8">
                 <div className="blog-details-wrapper ml-20">
                   {/* blog post */}
                   <BlogPost />
 
                   {/* blog post comment */}
-                  <BlogComment />
+                  {/* <BlogComment /> */}
                 </div>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-4">
                 {/* blog sidebar */}
-                <BlogSidebar />
+                {/* <BlogSidebar /> */}
+                <h3>FOCAL POINTS</h3>
+                
+
               </div>
             </div>
           </div>

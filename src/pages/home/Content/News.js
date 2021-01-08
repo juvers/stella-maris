@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
-import BlogFeaturedSingle from "components/blog-featured/BlogFeaturedSingle";
+// import BlogFeaturedSingle from "components/blog-featured/BlogFeaturedSingle";
+
+import BlogFeaturedSingle from "./NewsComponent";
 import SectionTitle from "components/section-title/SectionTitle";
 import news from "../Data/news.json";
 
