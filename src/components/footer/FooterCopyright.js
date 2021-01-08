@@ -15,7 +15,7 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
         </Link>
       </div>
       <p>
-        © 2020{" "}
+        © {new Date().getFullYear()}{" "}
         <a href="//hasthemes.com" rel="noopener noreferrer" target="_blank">
           SMGC
         </a>
