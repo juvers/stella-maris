@@ -12,7 +12,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-1.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/st-agnes.jpg"
                   }
                   alt=""
                 />
@@ -32,7 +32,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-2.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/st-catherine-of-siena.jpg"
                   }
                   alt=""
                 />
@@ -52,7 +52,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-3.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/st-maria-goretti.jpg"
                   }
                   alt=""
                 />
@@ -72,7 +72,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-2.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/st-therese-of-lisieux.jpg"
                   }
                   alt=""
                 />
