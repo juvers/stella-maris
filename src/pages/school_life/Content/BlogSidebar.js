@@ -20,7 +20,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Pink</span>
-              <h4 style={{color: "pink", textShadow:"1px 1px #000"}}>
+              <h4 style={{color: "pink", textShadow:"0.5px 0.5px #000"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St Agnes’ House
                 {/* </Link> */}
@@ -40,7 +40,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Purple</span>
-              <h4 style={{color: "purple", textShadow:"1px 1px #000"}}>
+              <h4 style={{color: "purple"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St. Catherine’s House
                 {/* </Link> */}
@@ -60,7 +60,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Yellow</span>
-              <h4 style={{color: "yellow", textShadow:"1px 1px #000"}}>
+              <h4 style={{color: "yellow", textShadow:"0.5px 0.5px #000"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St. Maria Gorretti’s House
                 {/* </Link> */}
@@ -80,7 +80,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Green</span>
-              <h4 style={{color: "green", textShadow:"1px 1px #000"}}>
+              <h4 style={{color: "green"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St. Therese House
                 {/* </Link> */}
