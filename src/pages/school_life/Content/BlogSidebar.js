@@ -12,7 +12,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/saints/st-agnes.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/stagnes.jpg"
                   }
                   alt=""
                 />
@@ -20,7 +20,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Pink</span>
-              <h4>
+              <h4 style={{color: "pink", textShadow:"1px 1px #000"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St Agnes’ House
                 {/* </Link> */}
@@ -32,7 +32,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/saints/st-catherine-of-siena.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/stcatherine.jpg"
                   }
                   alt=""
                 />
@@ -40,7 +40,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Purple</span>
-              <h4>
+              <h4 style={{color: "purple", textShadow:"1px 1px #000"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St. Catherine’s House
                 {/* </Link> */}
@@ -52,7 +52,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/saints/st-maria-goretti.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/stmariagoretti.png"
                   }
                   alt=""
                 />
@@ -60,7 +60,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Yellow</span>
-              <h4>
+              <h4 style={{color: "yellow", textShadow:"1px 1px #000"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St. Maria Gorretti’s House
                 {/* </Link> */}
@@ -72,7 +72,7 @@ const BlogSidebar = () => {
               {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/saints/st-therese-of-lisieux.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/saints/sttherese.jpg"
                   }
                   alt=""
                 />
@@ -80,7 +80,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar-blog-content">
               <span>Green</span>
-              <h4>
+              <h4 style={{color: "green", textShadow:"1px 1px #000"}}>
                 {/* <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}> */}
                 St. Therese House
                 {/* </Link> */}
