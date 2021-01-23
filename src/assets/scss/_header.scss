@@ -213,8 +213,8 @@
                     display: block;
                     visibility: hidden;
                     // Increase with to 700px to create 3 columns
-                    width: 480px;
-                    padding: 40px;
+                    width: 150px;
+                    padding: 20px;
                     transition: all 0.5s ease 0s;
                     transform: rotateX(90deg);
                     transform-origin: center top 0;
@@ -241,6 +241,7 @@
                                     margin: 0 0 10px;
                                     text-transform: uppercase;
                                     color: #242424;
+                                    white-space: nowrap;
                                     &::before {
                                         display: none;
                                     }
@@ -262,6 +263,7 @@
                                     text-align: left;
                                     text-transform: capitalize;
                                     color: #333;
+                                    white-space: nowrap;
                                     &:hover {
                                         color: $theme-color;
                                     }

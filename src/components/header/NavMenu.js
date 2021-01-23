@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { multilanguage } from "redux-multilanguage";
 
 const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
-  return (
-    <div className={` ${sidebarMenu
+        return ( <
+                div className = { ` ${sidebarMenu
         ? "sidebar-menu"
         : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
       } `}>
@@ -63,7 +63,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <ul>
                 <li className="mega-menu-img">
                   <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
@@ -77,7 +77,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li>
@@ -122,7 +122,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <ul>
                 <li className="mega-menu-img">
                   <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
@@ -136,7 +136,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li>
@@ -175,7 +175,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <ul>
                 <li className="mega-menu-img">
                   <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
@@ -189,7 +189,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li>
