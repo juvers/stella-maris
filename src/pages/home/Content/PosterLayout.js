@@ -7,7 +7,7 @@ const PosterLayout = ({ data }) => {
     return (
         <>
             <div className="row mb-5">
-                <div className="col-md-4 text-justify">
+                <div className="col-lg-4 text-justify">
                     <h3>MISSION STATEMENT</h3>
                     <p> With faith in the Triune God and collaborating with all stakeholders, we, the staff of Stella Maris Girls College, commit ourselves to offering a holistic and revolutionized education where:</p>
                     <ul style={{listStyleType: "circle"}}>
@@ -20,7 +20,7 @@ const PosterLayout = ({ data }) => {
                 </div>
 
 
-                <div className="col-md-4 text-justify">
+                <div className="col-lg-4 col-md-6 text-justify">
                     <h3>VISION STATEMENT</h3>
                     <p>Nurturing future stellar women of faith and integrity who will be positive contributors and active informed citizens of their society.</p>
 
@@ -30,7 +30,7 @@ const PosterLayout = ({ data }) => {
 
 
                 </div>
-                <div className="col-md-4 px-2">
+                <div className="col-lg-4 col-md-6 text-center">
                     <a href={process.env.PUBLIC_URL + '/assets/pdf/poster.pdf'} rel="noopener noreferrer" download="SMGC-Admission-Poster.pdf"> <img src={process.env.PUBLIC_URL + '/assets/img/poster2021.jpg'} className="poster-img" alt="" /></a>
                     <p>Click image to download <strong>Admission Poster</strong></p>
                 </div>

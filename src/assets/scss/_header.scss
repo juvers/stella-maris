@@ -414,12 +414,15 @@
         margin-left: 14px;
         @media #{$lg-layout} {
             margin-left: 10px;
+            margin-top: 25px;
         }
         @media #{$md-layout} {
             margin-left: 15px;
+            margin-top: 25px;
         }
         @media #{$xs-layout} {
             margin-left: 20px;
+            margin-top: 25px;
         }
         >a,
         button {
