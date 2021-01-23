@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
-import LayoutOne from "../../layouts/LayoutOne";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import LocationMap from "../../components/contact/LocationMap";
+import LayoutOne from "layouts/LayoutOne";
+import Breadcrumb from "wrappers/breadcrumb/Breadcrumb";
+import LocationMap from "./Content/LocationMap";
 
 const Contact_Us = ({ location }) => {
   const { pathname } = location;
@@ -28,7 +28,7 @@ const Contact_Us = ({ location }) => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-              <LocationMap latitude="47.444" longitude="-122.176" />
+              <LocationMap latitude="6.7447832" longitude="6.0102966" />
             </div>
             <div className="custom-row-2 d-flex flex-row">
               <div className="col-lg-4 col-md-5">

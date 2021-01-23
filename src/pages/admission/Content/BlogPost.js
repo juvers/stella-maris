@@ -20,7 +20,7 @@ const BlogPost = () => {
         </div>
       </div>
       <div className="dec-img-wrapper">
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-6">
             <div className="dec-img mb-50">
               <img
@@ -41,7 +41,7 @@ const BlogPost = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <h3>Eligibility</h3>
         <p className="text-justify">

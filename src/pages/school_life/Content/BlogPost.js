@@ -22,6 +22,7 @@ const BlogPost = () => {
           <p className="mb-2">The Governor promised Agnes wonderful gifts if she would only deny God, but Agnes refused. He tried to change her mind by putting her in chains, but her lovely face shone with joy. Next he sent her to a place of sin, but an Angel protected her. At last, she was condemned to death. Even the pagans cried to see such a young and beautiful girl going to death. Yet, Agnes was as happy as a bride on her wedding day. She did not pay attention to those who begged her to save herself. "I would offend my Spouse," she said, "if I were to try to please you. He chose me first and He shall have me!" Then she prayed and bowed her head for the death-stroke of the sword. St Agnes is celebrated in the church every 21st of January. </p>
         </div>
       </div>
+      <hr />
       <div className="blog-details-top">
 
         <div className="blog-details-img">
@@ -39,7 +40,7 @@ const BlogPost = () => {
           </p>
         </div>
       </div>
-
+      <hr />
       <div className="blog-details-top">
         <div className="blog-details-img">
           <img
@@ -58,7 +59,7 @@ const BlogPost = () => {
           <p className="mb-2"> When Maria was declared a saint in 1950, Alexander was there in the St. Peter's crowd to celebrate her canonization. She was canonized by Pope Pius XII in 1950 for her purity as model for youth. She is called a martyr because she fought against Alexander's attempts at sexual assault. However, the most important aspect of her story is her forgiveness of her attacker -- her concern for her enemy extending even beyond death. Her feast day is July 6.  St. Maria Goretti is the patroness of youth and for the victims of rape.</p>
         </div>
       </div>
-
+      <hr />
       <div className="blog-details-top">
         <div className="blog-details-img">
           <img
