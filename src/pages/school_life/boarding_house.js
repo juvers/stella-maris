@@ -29,9 +29,9 @@ const Boarding_House = ({ location }) => {
         <Breadcrumb />
         <div className="blog-area pt-100 pb-100">
           <div className="container">
-            <div className="row flex-row-reverse">
+            <div className="row flex-md-row-reverse">
               <div className="col-lg-9">
-                <div className="blog-details-wrapper ml-20">
+                <div className="blog-details-wrapper">
                   {/* blog post */}
                   <BlogPost />
 

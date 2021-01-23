@@ -53,8 +53,8 @@ const BlogPost = () => {
       </div> */}
       <div className="mb-3">
         <h3>AIMS OF CATHOLIC EDUCATION</h3>
-        <p className="text-justify">
-          <ul style={{ listStyleType: "circle" }}>
+      
+          <ul style={{ listStyleType: "circle", textAlign: "justify" }}>
             <li>All people of whatever race, condition or age, in virtue of their dignity as human persons, have an unalienable right to education.</li>
             <li>This education should be suitable to the particular destiny of the individuals, adapted to their ability, sex, and national cultural traditions.</li>
             <li>At the same time, this education should pave the way to brotherly (sisterly) association with other peoples, so that genuine peace and unity on earth may be promoted.</li>
@@ -63,7 +63,7 @@ const BlogPost = () => {
             <li>Surmounting hardships with a gallant and steady heart, they should be helped to acquire gradually, and through constant effort, a more mature sense of responsibility towards the proper development of their own lives, and towards pursuing authentic freedom.</li>
           </ul>
           <i className="text-primary"> - Excerpts from ‘The Declaration on Christian Education: Vatican II</i>
-        </p>
+       
 
       </div>
 

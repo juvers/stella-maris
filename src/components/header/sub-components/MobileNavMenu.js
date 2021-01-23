@@ -7,7 +7,7 @@ const MobileNavMenu = ({ strings }) => {
   return (
     <nav className="offcanvas-navigation" id="offcanvas-navigation">
       <ul>
-        <li className="menu-item-has-children">
+        {/* <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/"}>{strings["home"]}</Link>
           <ul className="sub-menu">
             <li className="menu-item-has-children">
@@ -222,9 +222,9 @@ const MobileNavMenu = ({ strings }) => {
               </ul>
             </li>
           </ul>
-        </li>
+        </li> */}
 
-        <li className="menu-item-has-children">
+        {/* <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
             {strings["shop"]}
           </Link>
@@ -336,8 +336,8 @@ const MobileNavMenu = ({ strings }) => {
               </ul>
             </li>
           </ul>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
             {strings["collection"]}
           </Link>
@@ -391,8 +391,8 @@ const MobileNavMenu = ({ strings }) => {
               </Link>
             </li>
           </ul>
-        </li>
-        <li className="menu-item-has-children">
+        </li> */}
+        {/* <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
             {strings["blog"]}
           </Link>
@@ -418,6 +418,98 @@ const MobileNavMenu = ({ strings }) => {
               </Link>
             </li>
           </ul>
+        </li> */}
+        <li>
+          <Link to={process.env.PUBLIC_URL + "/"}>
+            {strings["home"]}
+          </Link>
+        </li>
+           <li className="menu-item-has-children">
+          <Link to={process.env.PUBLIC_URL + "/about_us"}>
+            {strings["about"]}
+          </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/about_us"}>
+                {strings["about"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/administration"}>
+                {strings["administration"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/anthem"}>
+                {strings["anthem"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/history"}>
+                {strings["history"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/staff"}>
+                {strings["staff"]}
+              </Link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <Link to={process.env.PUBLIC_URL + "/admission"}>
+            {strings["admission"]}
+          </Link>
+        </li>
+        <li className="menu-item-has-children">
+          <Link to={process.env.PUBLIC_URL + "/academics"}>
+            {strings["academics"]}
+          </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/classes"}>
+                {strings["classes"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/curriculum"}>
+                {strings["curriculum"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/term_planner"}>
+                {strings["term_planner"]}
+              </Link>
+            </li>
+          </ul>
+        </li>
+        <li className="menu-item-has-children">
+          <Link to={process.env.PUBLIC_URL + "/school_life"}>
+            {strings["school_life"]}
+          </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/boarding_house"}>
+                {strings["boarding_house"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/co_curricular"}>
+                {strings["co_curricular"]}
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/dress_code"}>
+                {strings["dress_code"]}
+              </Link>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <Link to={process.env.PUBLIC_URL + "/liturgy"}>
+            {strings["liturgy"]}
+          </Link>
         </li>
         <li>
           <Link to={process.env.PUBLIC_URL + "/contact"}>

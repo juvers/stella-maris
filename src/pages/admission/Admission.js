@@ -29,9 +29,9 @@ const Admission = ({ location }) => {
         <Breadcrumb />
         <div className="blog-area pt-100 pb-100">
           <div className="container">
-            <div className="row flex-row-reverse">
+            <div className="row flex-md-row-reverse">
               <div className="col-lg-8">
-                <div className="blog-details-wrapper ml-20">
+                <div className="blog-details-wrapper">
                   {/* blog post */}
                   <BlogPost />
 
@@ -43,7 +43,7 @@ const Admission = ({ location }) => {
                 {/* blog sidebar */}
                 {/* <BlogSidebar /> */}
                 <h3>Form Centers</h3>
-                <h5 class="f-md">Purchase Admission Forms at any of the following Sale Centers</h5>
+                <h5 className="f-md">Purchase Admission Forms at any of the following Sale Centers</h5>
                 <ul style={{ listStyleType: "lower-roman" }}>
                   <li>Stella Maris Girls College, Iruekpen, Edo State</li>
                   <li>Phelim Group of Schools, No. 64-68, Adesuwa Grammar School Road, GRA, Benin City, Edo State</li>

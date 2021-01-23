@@ -53,15 +53,15 @@ const BlogPost = () => {
           You can visit any of the following centres to write the examination:
 
         </p>
-        <ul class="list-group">
-          <li class="list-group-item">Stella Maris Girls College, Iruekpen, Edo State</li>
-          <li class="list-group-item">Phelim Group of Schools, No. 64-68, Adesuwa Grammar School Road, GRA, Benin City, Edo State</li>
-          <li class="list-group-item">Regina Mundi(OLA) Private School, No. 153 Nnebisi Road Asaba, Delta State</li>
-          <li class="list-group-item">St. Louis Nur./Pry School, Akure, Ondo State</li>
-          <li class="list-group-item">Mater Misericordiae Secondary School, Rumuomasi, Port Harcourt</li>
-          <li class="list-group-item">St. Finbar's College. Akoka Lagos (beside University of Lagos)</li>
-          <li class="list-group-item">Carmelite Prisoners' Interest Organization (CAPIO), 2 Bent Lane GRA, Enugu, Enugu State</li>
-          <li class="list-group-item">St Enda's College, Along Old Ughelli/Warri Road, Near General Obada Junction, Agbarho, Delta State</li>
+        <ul className="list-group">
+          <li className="list-group-item">Stella Maris Girls College, Iruekpen, Edo State</li>
+          <li className="list-group-item">Phelim Group of Schools, No. 64-68, Adesuwa Grammar School Road, GRA, Benin City, Edo State</li>
+          <li className="list-group-item">Regina Mundi(OLA) Private School, No. 153 Nnebisi Road Asaba, Delta State</li>
+          <li className="list-group-item">St. Louis Nur./Pry School, Akure, Ondo State</li>
+          <li className="list-group-item">Mater Misericordiae Secondary School, Rumuomasi, Port Harcourt</li>
+          <li className="list-group-item">St. Finbar's College. Akoka Lagos (beside University of Lagos)</li>
+          <li className="list-group-item">Carmelite Prisoners' Interest Organization (CAPIO), 2 Bent Lane GRA, Enugu, Enugu State</li>
+          <li className="list-group-item">St Enda's College, Along Old Ughelli/Warri Road, Near General Obada Junction, Agbarho, Delta State</li>
         </ul>
       </div>
 

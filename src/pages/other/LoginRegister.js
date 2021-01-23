@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import LayoutOne from "../../layouts/LayoutOne";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+import LayoutOne from "layouts/LayoutOne";
+import Breadcrumb from "wrappers/breadcrumb/Breadcrumb";
 
 const LoginRegister = ({ location }) => {
   const { pathname } = location;
@@ -14,7 +14,7 @@ const LoginRegister = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Login</title>
+        <title>SMGC | Login</title>
         <meta
           name="description"
           content="Compare page of flone react minimalist eCommerce template."
