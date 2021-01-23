@@ -27,7 +27,7 @@ const BlogPost = () => {
 
         </div>
       </div>
-      <div className="dec-img-wrapper">
+      {/* <div className="dec-img-wrapper">
         <div className="row">
           <div className="col-md-6">
             <div className="dec-img mb-50">
@@ -50,7 +50,7 @@ const BlogPost = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="mb-3">
         <h3>AIMS OF CATHOLIC EDUCATION</h3>
         <p className="text-justify">
@@ -76,7 +76,7 @@ const BlogPost = () => {
         <p>Like our founder, the Sisters of St Louis’ view of teaching is that it should present challenges to the young and allow them to challenge the situation of the world, so that they may be interested in creating a better world.  For us freedom is freedom to choose, freedom for responsibility.  Speaking and living are the two greatest ways of communication of the Truth that we live by.  We need to think well in order to speak well, and everyone should give time and effort to speaking well and being able to discuss and debate.  ‘We will have made progress if we succeed in giving our pupils a taste for serious study and if we encourage them to have wide interests which will enable them to see things as a whole, the interests of humankind, all parts of the world and the wonderful world of Nature.  This will widen their horizons, raise them above themselves and interest them in all that is human, because they themselves are human’ (Louis Bautain, Prizegiving Day, Institute de la Toussaint, Headmaster’s Report, 1837).</p>
 
       </div>
-      <div className="dec-img-wrapper">
+      {/* <div className="dec-img-wrapper">
         <div className="row">
           <div className="col-md-6">
             <div className="dec-img mb-50">
@@ -99,7 +99,7 @@ const BlogPost = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="mb-3">
         <h3>REFLECTIONS OF PAST STUDENTS OF ST. LOUIS SCHOOLS ON THE EXPERIENCES OF THEIR SCHOOL DAYS</h3>
 
