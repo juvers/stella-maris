@@ -59,7 +59,7 @@ const Contact = ({ location }) => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
+                      <p>Stella Maris Girls College, </p>
                       <p>street, Iruekpen, Edo State</p>
                     </div>
                   </div>
