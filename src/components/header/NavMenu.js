@@ -116,8 +116,18 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </Link>
                 </li>
                 <li>
+                  <Link to={process.env.PUBLIC_URL + "/grading_system"}>
+                    {strings["grading_system"]}
+                  </Link>
+                </li>
+                <li>
                   <Link to={process.env.PUBLIC_URL + "/term_planner"}>
                     {strings["term_planner"]}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={process.env.PUBLIC_URL + "/SMGC_advantage"}>
+                    {strings["SMGC_advantage"]}
                   </Link>
                 </li>
               </ul>

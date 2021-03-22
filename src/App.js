@@ -24,7 +24,9 @@ const Admission = lazy(() => import("pages/admission/Admission"));
 // Academics Page
 const Academics = lazy(() => import("pages/academics/curriculum"));
 const Classes = lazy(() => import("pages/academics/classes"));
-const Term_Planner = lazy(() => import("pages/academics/term_planner"))
+const Term_Planner = lazy(() => import("pages/academics/term_planner"));
+const GradingSystem = lazy(() => import("pages/academics/grading_system"));
+const SMGC_advantage = lazy(() => import("pages/academics/SMGC_advantage"));
 
 // Liturgy
 const Liturgy = lazy(() => import("pages/liturgy/liturgy"));
@@ -124,9 +126,17 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/classes"}
                   component={Classes}
                 />
+                 <Route
+                  path={process.env.PUBLIC_URL + "/grading_system"}
+                  component={GradingSystem}
+                />
                 <Route
                   path={process.env.PUBLIC_URL + "/term_planner"}
                   component={Term_Planner}
+                />
+                  <Route
+                  path={process.env.PUBLIC_URL + "/SMGC_advantage"}
+                  component={SMGC_advantage}
                 />
 
                 <Route

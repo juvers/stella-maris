@@ -14,6 +14,8 @@
     "term_planner": "Term Planner",
     "classes": "Classes",
     "curriculum": "Curriculum",
+    "grading_system": "Grading System",
+    "SMGC_advantage": "SMGC Advantage",
     "staff": "Staff",
     "history": "History",
     "anthem": "Anthem",
@@ -23,8 +25,6 @@
     "404_page": "404 Page",
     "news": "News and Updates",
     "school_life": "School Life",
-
-
     "cart": "Cart",
     "checkout": "Checkout",
     "wishlist": "Wishlist",
