@@ -997,40 +997,41 @@ const Boarding_House = ({ location }) => {
           <div className="container">
             <div className="row">
               <div className="mt-4 col-md-6">
-                <h3>Student's Bio-Data</h3>
+                <h3>STUDENT’S BIODATA</h3>
                 <a
-                  href={process.env.PUBLIC_URL + "/assets/pdf/form.pdf"}
+                  href={process.env.PUBLIC_URL + "/assets/pdf/biodata.pdf"}
                   rel="noopener noreferrer"
-                  download="SMGC-Admission-Form.pdf"
+                  download="SMGC-Biodata.pdf"
                 >
                   {" "}
                   <img
-                    src={process.env.PUBLIC_URL + "/assets/img/form2021.jpg"}
+                    src={process.env.PUBLIC_URL + "/assets/img/biodata.jpg"}
                     className="poster-img"
                     alt=""
                   />
                 </a>
                 <p>
-                  Click image to download <strong>Admission Form</strong>
+                  Click image to download <strong>Student's Bio-Data Form</strong>
                 </p>
               </div>
 
               <div className="mt-4 col-md-6">
-                <h3>Student's Bio-Data</h3>
+                <h3>STUDENT’S PERSONAL DATA – FORM
+</h3>
                 <a
-                  href={process.env.PUBLIC_URL + "/assets/pdf/poster.pdf"}
+                  href={process.env.PUBLIC_URL + "/assets/pdf/personalform.pdf"}
                   rel="noopener noreferrer"
-                  download="SMGC-Admission-Poster.pdf"
+                  download="SMGC-Personal-Form.pdf"
                 >
                   {" "}
                   <img
-                    src={process.env.PUBLIC_URL + "/assets/img/poster2021.jpg"}
+                    src={process.env.PUBLIC_URL + "/assets/img/personalform.jpg"}
                     className="poster-img"
                     alt=""
                   />
                 </a>
                 <p>
-                  Click image to download <strong>Admission Poster</strong>
+                  Click image to download <strong>Student's Personal Data Form</strong>
                 </p>
               </div>
             </div>
