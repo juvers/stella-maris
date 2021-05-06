@@ -991,6 +991,50 @@ const Boarding_House = ({ location }) => {
               </div>
             </div>
           </div>
+
+          <hr />
+
+          <div className="container">
+            <div className="row">
+              <div className="mt-4 col-md-6">
+                <h3>Student's Bio-Data</h3>
+                <a
+                  href={process.env.PUBLIC_URL + "/assets/pdf/form.pdf"}
+                  rel="noopener noreferrer"
+                  download="SMGC-Admission-Form.pdf"
+                >
+                  {" "}
+                  <img
+                    src={process.env.PUBLIC_URL + "/assets/img/form2021.jpg"}
+                    className="poster-img"
+                    alt=""
+                  />
+                </a>
+                <p>
+                  Click image to download <strong>Admission Form</strong>
+                </p>
+              </div>
+
+              <div className="mt-4 col-md-6">
+                <h3>Student's Bio-Data</h3>
+                <a
+                  href={process.env.PUBLIC_URL + "/assets/pdf/poster.pdf"}
+                  rel="noopener noreferrer"
+                  download="SMGC-Admission-Poster.pdf"
+                >
+                  {" "}
+                  <img
+                    src={process.env.PUBLIC_URL + "/assets/img/poster2021.jpg"}
+                    className="poster-img"
+                    alt=""
+                  />
+                </a>
+                <p>
+                  Click image to download <strong>Admission Poster</strong>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </LayoutOne>
     </Fragment>
