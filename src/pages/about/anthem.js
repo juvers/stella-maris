@@ -7,7 +7,6 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 
 const Anthem = ({ location }) => {
   const { pathname } = location;
-
   return (
     <Fragment>
       <MetaTags>
