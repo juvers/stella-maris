@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { Fragment } from "react";
+import React, { useEffect, Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
@@ -8,10 +8,10 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 const Anthem = ({ location }) => {
   const { pathname } = location;
   const anthemAudio = new Audio("/assets/audio/anthem.ogg");
-  // useEffect(() => {
-  //   // playAnthem();
-  //   anthemAudio.play();
-  // }, [anthemAudio]);
+
+  useEffect(() => {
+    return () => anthemAudio.pause();
+  });
   return (
     <Fragment>
       <MetaTags>
