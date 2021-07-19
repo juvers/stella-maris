@@ -4,9 +4,9 @@ import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogComment from "../../wrappers/blog/BlogComment";
-import BlogPost from "../../wrappers/blog/BlogPost";
+// import BlogSidebar from "../../wrappers/blog/BlogSidebar";
+// import BlogComment from "../../wrappers/blog/BlogComment";
+// import BlogPost from "../../wrappers/blog/BlogPost";
 
 const Term_Planner = ({ location }) => {
   const { pathname } = location;

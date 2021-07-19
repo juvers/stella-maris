@@ -4,9 +4,6 @@ import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogComment from "../../wrappers/blog/BlogComment";
-import BlogPost from "../../wrappers/blog/BlogPost";
 
 const Anthem = ({ location }) => {
   const { pathname } = location;
@@ -28,9 +25,25 @@ const Anthem = ({ location }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         <div className="container" style={{ minHeight: "30vh" }}>
-          <div className="row">
-            <div className="col-md-12 text-center pt-5">
-              <h1>Coming Soon...</h1>
+          <div className="row text-center">
+
+            <div className="col-md-4">
+              <img src={process.env.PUBLIC_URL + '/assets/img/anthem/anthem1.png'} className="poster-img" alt="" />
+            </div>
+            <div className="col-md-4">
+              <img src={process.env.PUBLIC_URL + '/assets/img/anthem/anthem2.png'} className="poster-img" alt="" />
+            </div>
+            <div className="col-md-4">
+              <img src={process.env.PUBLIC_URL + '/assets/img/anthem/anthem3.png'} className="poster-img" alt="" />
+            </div>
+
+          </div>
+          <div className="row text-center">
+            <div className="col-md-6">
+              <img src={process.env.PUBLIC_URL + '/assets/img/anthem/anthem4.png'} className="poster-img" alt="" />
+            </div>
+            <div className="col-md-6">
+              <img src={process.env.PUBLIC_URL + '/assets/img/anthem/anthem5.png'} className="poster-img" alt="" />
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "layouts/LayoutOne";
@@ -7,7 +7,21 @@ import Breadcrumb from "wrappers/breadcrumb/Breadcrumb";
 import LocationMap from "./Content/LocationMap";
 
 const Contact_Us = ({ location }) => {
+  const [state, setState] = useState({
+
+  })
   const { pathname } = location;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(state);
+  }
+
+  const handleChange = ({ target }) => {
+    const name = target.name;
+    const value = target.value;
+    setState({ ...state, [name]: value })
+  }
 
   return (
     <Fragment>
@@ -60,7 +74,7 @@ const Contact_Us = ({ location }) => {
                     </div>
                     <div className="contact-info-dec">
                       <p>Stella Maris Girls College </p>
-                      <p>street, Iruekpen, Edo State</p>
+                      <p>Iruekpen, Edo State</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">
@@ -100,17 +114,18 @@ const Contact_Us = ({ location }) => {
                   <div className="contact-title mb-30">
                     <h2>Get In Touch</h2>
                   </div>
-                  <form className="contact-form-style">
+                  <form className="contact-form-style" onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-lg-6">
-                        <input name="name" placeholder="Name*" type="text" />
+                        <input name="name" onChange={handleChange} placeholder="Name*" type="text" />
                       </div>
                       <div className="col-lg-6">
-                        <input name="email" placeholder="Email*" type="email" />
+                        <input name="email" onChange={handleChange} placeholder="Email*" type="email" />
                       </div>
                       <div className="col-lg-12">
                         <input
                           name="subject"
+                          onChange={handleChange}
                           placeholder="Subject*"
                           type="text"
                         />
@@ -118,6 +133,7 @@ const Contact_Us = ({ location }) => {
                       <div className="col-lg-12">
                         <textarea
                           name="message"
+                          onChange={handleChange}
                           placeholder="Your Message*"
                           defaultValue={""}
                         />
