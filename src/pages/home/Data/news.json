@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "/assets/img/poster2021.jpg",
+        "image": "/assets/img/poster.jpg",
         "category": ["Admission"],
         "title": "Get information about Admission",
         "url": "/admission",

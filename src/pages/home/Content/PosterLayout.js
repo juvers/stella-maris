@@ -31,7 +31,7 @@ const PosterLayout = ({ data }) => {
 
                 </div>
                 <div className="col-lg-4 col-md-6 text-center">
-                    <a href={process.env.PUBLIC_URL + '/assets/pdf/poster.pdf'} rel="noopener noreferrer" download="SMGC-Admission-Poster.pdf"> <img src={process.env.PUBLIC_URL + '/assets/img/poster2021.jpg'} className="poster-img" alt="" /></a>
+                    <a href={process.env.PUBLIC_URL + '/assets/pdf/poster.pdf'} rel="noopener noreferrer" download="SMGC-Admission-Poster.pdf"> <img src={process.env.PUBLIC_URL + '/assets/img/poster.jpg'} className="poster-img" alt="" /></a>
                     <p>Click image to download <strong>Admission Poster</strong></p>
                 </div>
 
