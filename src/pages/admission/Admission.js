@@ -52,16 +52,11 @@ const Admission = ({ location }) => {
                       <li>Louisville Girls High School, Ijebu-Itele, Ogun State</li>
                       <li>St. Louis Nur./Pry School, Akure, Ondo State0</li>
                       <li>Lumen Christi International High School, Uromi, Edo State</li>
-                      <li>Mater Misericordiae Secondary School, Rumuomasi, Port Harcourt</li>
-                      <li>St. Finbar's College. Akoka Lagos (beside University of Lagos)</li>
-                      <li>Marywood Girls College, Franklin Street, Ebute Metta Lagos (behind Costain)</li>
-                      <li>Carmelite Prisoners' Interest Organization (CAPIO), 2 Bent Lane GRA, Enugu, Enugu State</li>
-                      <li>St Enda's College, Along Old Ughelli/Warri Road, Near General Obada Junction, Agbarho, Delta State</li>
+                      <li>Mount Carmel Nur/Pry School Emaudo, Ekpoma</li>
+                      <li>Ogbidi Nur/Pry School, Uromi</li>
                       <li>St. Louis Nur./Pry School, Ikere-Ekiti, Ekiti State</li>
                       <li>Louisville Nur./Pry School, Mokola, Ibadan, Oyo State</li>
                     </ul>
-
-
                   </div>
                   <div className="mt-4 text-center col-lg-12 col-md-6">
                     <a href={process.env.PUBLIC_URL + '/assets/pdf/form.pdf'} rel="noopener noreferrer" download="SMGC-Admission-Form.pdf"> <img src={process.env.PUBLIC_URL + '/assets/img/form.jpg'} className="poster-img" alt="" /></a>

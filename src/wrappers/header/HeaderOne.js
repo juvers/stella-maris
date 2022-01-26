@@ -60,7 +60,7 @@ const HeaderOne = ({
           <div className="row">
             <div className="col-xl-1 col-lg-1 col-md-6 col-4">
               {/* header logo */}
-              <Logo imageUrl="/assets/img/smgcfinallogo.png" logoClass="logo" />
+              <Logo imageUrl="/assets/img/smgclogo.jpeg" logoClass="logo" />
             </div>
             <div className="col-xl-10 col-lg-10 d-none d-lg-block">
               {/* Nav menu */}

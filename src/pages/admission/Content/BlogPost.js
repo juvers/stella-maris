@@ -15,7 +15,7 @@ const BlogPost = () => {
 
           <h3>Admissions Process</h3>
           <p className="text-justify">
-            The process of admitting candidates into Stella Maris Girls College is divided into two phases. The first phase is a written examination in Mathematics, English Language and Aptitude test. The second phase is a face-to-face interview of the prospective students and their parents with the principal. This admission process starts with the purchase of forms from the form centers listed through to the examination day which is <strong>20th March 2021</strong>.
+            The process of admitting candidates into Stella Maris Girls College is divided into two phases. The first phase is a written examination in Mathematics, English Language and Aptitude test. The second phase is a face-to-face interview of the prospective students and their parents with the principal. This admission process starts with the purchase of forms from the form centers listed through to the examination day which is <strong>19th March 2022</strong>.
           </p>
         </div>
       </div>
@@ -47,25 +47,18 @@ const BlogPost = () => {
         <p className="text-justify">
           In SMGC, a new intake into JS1 must have turned ten (10) by September of the year of entry into the school. A student in the boarding house must be mature enough to take good care of herself, carry out the normal daily routine, and still be able to face her studies squarely. Also, this age limitation is to ensure that the girls are at least 16 years old when leaving the school. We hope parents would understand this stance of the school and co-operate with us to produce mature ladies for the next phase of their lives.{" "}
         </p>
-
+  
         <h3>Examination Centers</h3>
         <p className="text-justify">
           You can visit any of the following centres to write the examination:
-
         </p>
         <ul className="list-group">
           <li className="list-group-item">Stella Maris Girls College, Iruekpen, Edo State</li>
           <li className="list-group-item">Phelim Group of Schools, No. 64-68, Adesuwa Grammar School Road, GRA, Benin City, Edo State</li>
           <li className="list-group-item">Regina Mundi(OLA) Private School, No. 153 Nnebisi Road Asaba, Delta State</li>
-          <li className="list-group-item">St. Louis Nur./Pry School, Akure, Ondo State</li>
-          <li className="list-group-item">Mater Misericordiae Secondary School, Rumuomasi, Port Harcourt</li>
-          <li className="list-group-item">St. Finbar's College. Akoka Lagos (beside University of Lagos)</li>
-          <li className="list-group-item">Carmelite Prisoners' Interest Organization (CAPIO), 2 Bent Lane GRA, Enugu, Enugu State</li>
-          <li className="list-group-item">St Enda's College, Along Old Ughelli/Warri Road, Near General Obada Junction, Agbarho, Delta State</li>
+          <li className="list-group-item">Marywood Girls College, Franklin Street, Ebute-Metta, Lagos.</li>
         </ul>
       </div>
-
-
     </Fragment>
   );
 };
