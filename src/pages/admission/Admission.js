@@ -50,8 +50,9 @@ const Admission = ({ location }) => {
                       <li>Phelim Group of Schools, No. 64-68, Adesuwa Grammar School Road, GRA, Benin City, Edo State</li>
                       <li>Regina Mundi(OLA) Private School, No. 153 Nnebisi Road Asaba, Delta State</li>
                       <li>Louisville Girls High School, Ijebu-Itele, Ogun State</li>
-                      <li>St. Louis Nur./Pry School, Akure, Ondo State0</li>
+                      <li>St. Louis Nur./Pry School, Akure, Ondo State</li>
                       <li>Lumen Christi International High School, Uromi, Edo State</li>
+                      <li>Marywood Girls College, Franklin Street, Ebute Metta Lagos (behind Costain)</li>
                       <li>Mount Carmel Nur/Pry School Emaudo, Ekpoma</li>
                       <li>Ogbidi Nur/Pry School, Uromi</li>
                       <li>St. Louis Nur./Pry School, Ikere-Ekiti, Ekiti State</li>
