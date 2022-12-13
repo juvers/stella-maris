@@ -20,7 +20,7 @@ const BlogPost = () => {
             is a face-to-face interview of the prospective students and their
             parents with the principal. This admission process starts with the
             purchase of forms from the form centers listed through to the
-            examination day which is <strong>19th March 2022</strong>.
+            examination day which is <strong>25th March 2023</strong>.
           </p>
         </div>
       </div>
